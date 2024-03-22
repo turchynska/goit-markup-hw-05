@@ -549,9 +549,10 @@ margin-bottom: 16px;
 }
 
 
-.subscribe-form{
+.subscribe-form-footer{
 display: flex;
-gap: 24px;}
+gap: 24px;
+}
 
 .footer-subscribe-title{
     font-weight: 500;
@@ -559,7 +560,8 @@ gap: 24px;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff; 
- margin-bottom: 16px;}
+    margin-bottom: 16px;
+}
 
 .subscribe-form-input{
 border: 1px solid #fff;
@@ -569,6 +571,7 @@ height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: transparent;
 }
+
 .subscribe-form-input::placeholder{
 font-weight: 400;
 font-size: 12px;
