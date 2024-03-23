@@ -802,11 +802,10 @@ color: #8e8f99;
     display: flex;
     align-items: center;
 }
+
 .user-accept-vector{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 .link-modal-accept{
     line-height: 1.33333;
