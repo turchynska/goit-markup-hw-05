@@ -751,7 +751,7 @@ padding: 8px 16px;
 
 .container-modal-box{
     position: relative;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-form-input{
@@ -767,6 +767,7 @@ padding: 8px 16px;
     top: 50%;
     transform: translateY(-50%);
     fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-text-user{
     width: 100%;
