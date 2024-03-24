@@ -49,8 +49,6 @@ img{
 
 .header{
     border-bottom: 1px solid #e7e9fc;
-    width: 1440px;
-    height: 72px;
     margin: 0 auto;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
@@ -449,15 +447,13 @@ img{
 }
 
  .footer {
-    width: 1440px;
+    padding: 100px 0;
     background: #2e2f42;
 }
 
 .footer-container-logo{
-    padding-left: 148px;
    margin-right: 120px;
-   padding: 100px 0 100px;
-   display: inline-block;
+  
    
   
 }
@@ -545,8 +541,7 @@ margin-bottom: 16px;
 }
 
 .footer-subscribe-wrap{
- display: inline-block; 
- margin-left: 80px;   
+ margin-left: auto;   
 }
 
 
@@ -579,12 +574,8 @@ color: #ffffff;
 }
 
 .subscribe-form-input::placeholder{
-font-weight: 400;
-font-size: 12px;
-line-height: 2;
-letter-spacing: 0.04em;
-color #ffffff; 
-padding: 8px 16px;
+color: #ffffff; 
+
 }
 
 
@@ -857,8 +848,7 @@ color: #8e8f99;
     margin: 0 auto;
     display: block;
     border: none;
-    cursor: pointer;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    cursor: pointer; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
